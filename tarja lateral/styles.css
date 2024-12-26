@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color:rgb(118, 2, 118);
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px -2px 4px  rgb(98, 98, 98);
+    transform: rotate(-45deg);
+    margin-left:-50px ;
+    top: 30px;
+   
+& a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 41px;
+    color: white;
+    font-size: 14px;
+}
+}

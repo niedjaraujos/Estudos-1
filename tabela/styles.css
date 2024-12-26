@@ -1,0 +1,12 @@
+table{
+    border: 1px solid #5e5e5e;
+    width: 270px;
+align-items: center;
+}
+
+thead{
+    background-color: #797979;
+}
+tbody tr:nth-child(odd){
+    background-color: greenyellow;
+}
